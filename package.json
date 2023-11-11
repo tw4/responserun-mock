@@ -1,0 +1,25 @@
+{
+  "name": "responserun-mock",
+  "version": "2023.11.11.2",
+  "description": "",
+  "main": "/lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/responserun/responserun-mock.git"
+  },
+  "author": "responserun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/responserun/responserun-mock/issues"
+  },
+  "homepage": "https://github.com/responserun/responserun-mock#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
