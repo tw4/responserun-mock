@@ -1,0 +1,36 @@
+# ignore node_modules
+node_modules
+```
+
+# ignore src folder
+src
+
+# ignore .gitignore file itself
+.gitignore
+
+# ignore .git folder
+.git
+
+# ignore .idea folder
+.idea
+
+# ignore .vscode folder
+.vscode
+
+# ignore .DS_Store file
+.DS_Store
+
+# ignore .env file
+.env
+
+# ignore tsconfig.json file
+tsconfig.json
+
+# ignore test folder
+test
+
+# ignore .prettierrc file
+.prettierrc
+
+# ignore coverage folder
+coverage
