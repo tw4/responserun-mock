@@ -7,6 +7,6 @@ export function createMaleFirstName(locale: Locale) {
     case Locale.tr:
       return singleRandomizer(maleFirstNames);
     default:
-      break;
+      return singleRandomizer(maleFirstNames);
   }
 }

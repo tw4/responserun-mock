@@ -7,4 +7,7 @@ describe('createMaleFirstName()', () => {
   test('should return a male first name in Turkish', () => {
     expect(maleFirstNames).toContain(createMaleFirstName(Locale.tr));
   });
+  test('should return default', () => {
+    expect(maleFirstNames).toContain(createMaleFirstName('default' as Locale));
+  });
 });
