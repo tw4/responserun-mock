@@ -6,7 +6,8 @@
   "types": "lib",
   "scripts": {
     "test": "vitest",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/responserun/responserun-mock#readme",
   "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6"
   }
