@@ -1,13 +1,14 @@
 {
   "name": "responserun-mock",
-  "version": "2023.11.12.0",
+  "version": "2023.11.12.1",
   "description": "",
   "main": "/lib/index.js",
   "types": "lib",
   "scripts": {
     "test": "vitest",
     "build": "tsc -p .",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "deploy": "gh-pages -d coverage"
   },
   "repository": {
     "type": "git",
