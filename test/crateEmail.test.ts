@@ -7,4 +7,7 @@ describe('crateEmail', () => {
   test('should return a random email', () => {
     expect(emails).toContain(createEmail(Locale.tr));
   });
+  test('should return default', () => {
+    expect(emails).toContain(createEmail('default' as Locale));
+  });
 });

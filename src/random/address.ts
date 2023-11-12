@@ -7,6 +7,6 @@ export function createAddress(locale: Locale) {
     case Locale.tr:
       return singleRandomizer(addresses);
     default:
-      break;
+      return singleRandomizer(addresses);
   }
 }

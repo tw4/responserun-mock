@@ -8,4 +8,8 @@ describe('createPassword()', () => {
     const password = createPassword(Locale.tr);
     expect(passwords).toContain(password);
   });
+  test('should return default', () => {
+    const password = createPassword('default' as Locale);
+    expect(passwords).toContain(password);
+  });
 });

@@ -7,7 +7,7 @@ export function createEmail(locale: Locale) {
     case Locale.tr:
       return singleRandomizer(emails);
     default:
-      break;
+      return singleRandomizer(emails);
   }
 }
 

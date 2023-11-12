@@ -7,4 +7,7 @@ describe('createSurname()', () => {
   test('should return a surname in Turkish', () => {
     expect(surnames).toContain(createSurname(Locale.tr));
   });
+  test('should return default', () => {
+    expect(surnames).toContain(createSurname('default' as Locale));
+  });
 });

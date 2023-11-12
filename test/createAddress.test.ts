@@ -7,4 +7,7 @@ describe('createAddress()', () => {
   test('should return a address in Turkish', () => {
     expect(addresses).toContain(createAddress(Locale.tr));
   });
+  test('should return default', () => {
+    expect(addresses).toContain(createAddress('default' as Locale));
+  });
 });

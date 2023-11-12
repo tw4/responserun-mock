@@ -15,6 +15,3 @@ export function generateUuid4() {
 
   return uuid;
 }
-
-const myUuid = generateUuid4();
-console.log(myUuid);
