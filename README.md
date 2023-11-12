@@ -22,7 +22,7 @@ This command generates a coverage report indicating how much of the code is cove
 
 ## Installation
 ```
-npm install responserun-mock
+npm install --save-dev responserun-mock
 ```
 
 ## example
