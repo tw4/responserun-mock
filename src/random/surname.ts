@@ -7,6 +7,6 @@ export function createSurname(locale: Locale) {
     case Locale.tr:
       return singleRandomizer(surnames);
     default:
-      break;
+      return singleRandomizer(surnames);
   }
 }
