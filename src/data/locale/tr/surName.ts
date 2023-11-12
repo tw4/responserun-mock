@@ -1,4 +1,4 @@
-export const surNames = [
+export const surnames = [
   'Yılmaz',
   'Kaya',
   'Demir',
