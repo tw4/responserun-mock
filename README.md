@@ -28,7 +28,7 @@ npm install responserun-mock
 ## example
 
 ```javascript
-const { createMaleFirstName, createFemaleFirstName, Locale } = require('responserun-mock');
+const { createMaleFirstName, Locale } = require('responserun-mock');
 
 const turkishMaleName = createMaleFirstName(Locale.tr);
 
