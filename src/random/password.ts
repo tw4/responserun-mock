@@ -7,6 +7,6 @@ export function createPassword(locale: Locale) {
     case Locale.tr:
       return singleRandomizer(passwords);
     default:
-      break;
+      return singleRandomizer(passwords);
   }
 }
