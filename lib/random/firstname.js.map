@@ -1,1 +1,0 @@
-{"version":3,"file":"firstname.js","sourceRoot":"","sources":["../../src/random/firstname.ts"],"names":[],"mappings":";;;AAAA,mEAAgE;AAChE,4CAAyC;AACzC,6CAAgD;AAEhD,SAAgB,mBAAmB,CAAC,MAAc;IAChD,QAAQ,MAAM,EAAE;QACd,KAAK,eAAM,CAAC,EAAE;YACZ,OAAO,IAAA,6BAAgB,EAAC,6BAAa,CAAC,CAAC;QACzC;YACE,MAAM;KACT;AACH,CAAC;AAPD,kDAOC"}
