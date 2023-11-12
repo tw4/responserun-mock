@@ -5,7 +5,6 @@ import { maleFirstNames } from '../src/data/locale/tr/maleFirstName';
 
 describe('createMaleFirstName()', () => {
   test('should return a male first name in Turkish', () => {
-    const firstName = createMaleFirstName(Locale.tr);
-    expect(maleFirstNames).toContain(firstName);
+    expect(maleFirstNames).toContain(createMaleFirstName(Locale.tr));
   });
 });
