@@ -34,3 +34,9 @@ test
 
 # ignore coverage folder
 coverage
+
+# ignore .gitignore file itself
+.gitignore
+
+# ignore .prettierrc file
+.prettierrc

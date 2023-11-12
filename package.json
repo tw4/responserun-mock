@@ -1,6 +1,6 @@
 {
   "name": "responserun-mock",
-  "version": "2023.11.11.2",
+  "version": "2023.11.12.0",
   "description": "",
   "main": "/lib/index.js",
   "types": "lib",
