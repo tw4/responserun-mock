@@ -31,7 +31,7 @@ console.log(random);
 
 ### jsx example
 ```javascript
-mport { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   Locale,
   createAddress,
