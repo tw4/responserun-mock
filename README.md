@@ -41,7 +41,7 @@ import {
   multipleRandomizer,
 } from "responserun-mock";
 
-interface User {
+type User {
   id: string;
   name: string;
   surname: string;
