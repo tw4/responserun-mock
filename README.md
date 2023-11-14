@@ -12,11 +12,21 @@ npm install --save-dev responserun-mock
 ## example
 
 ```javascript
-const { createMaleFirstName, Locale } = require('responserun-mock');
+const { createMaleFirstName, Locale, multipleRandomizer } = require('responserun-mock');
+
 
 const turkishMaleName = createMaleFirstName(Locale.tr);
 
+// multiple create object
+const random = multipleRandomizer(
+  () => ({
+    name: createMaleFirstName(Locale.tr),
+  }),
+    5
+  );
+
 console.log(`Random Turkish Male Name: ${turkishMaleName}`);
+console.log(random);
 ```
 ## Wiki
 
