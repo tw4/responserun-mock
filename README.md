@@ -28,6 +28,60 @@ const random = multipleRandomizer(
 console.log(`Random Turkish Male Name: ${turkishMaleName}`);
 console.log(random);
 ```
+
+### jsx example
+```javascript
+mport { useEffect, useState } from "react";
+import {
+  Locale,
+  createAddress,
+  createFemaleFirstName,
+  createSurname,
+  generateUuid4,
+  multipleRandomizer,
+} from "responserun-mock";
+
+interface User {
+  id: string;
+  name: string;
+  surname: string;
+  address: string;
+}
+
+const TestPage = () => {
+  const [users, setUsers] = useState<User[]>([]);
+
+  useEffect(() => {
+    const userList = multipleRandomizer(
+      () => ({
+        id: generateUuid4(),
+        name: createFemaleFirstName(Locale.tr),
+        surname: createSurname(Locale.tr),
+        address: createAddress(Locale.tr),
+      }),
+      5
+    );
+    setUsers(userList);
+  }, []);
+
+  return (
+    <div className="p-2">
+      <ul>
+        {users.map((user) => {
+          return (
+            <li key={user.id}>
+              {user.name} {user.surname}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  );
+};
+
+export default TestPage;
+```
+
 ## Wiki
 
 For more information, please check our [Wiki page](https://github.com/responserun/responserun-mock/wiki).
