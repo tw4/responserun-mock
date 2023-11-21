@@ -1,0 +1,17 @@
+export const maleFirstNames_EN = [
+  'Liam',
+  'Noah',
+  'Oliver',
+  'Elijah',
+  'William',
+  'James',
+  'Benjamin',
+  'Lucas',
+  'Henry',
+  'Alexander',
+  'Daniel',
+  'Matthew',
+  'David',
+  'Joseph',
+  'Michael',
+];
