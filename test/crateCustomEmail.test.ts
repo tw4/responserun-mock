@@ -10,4 +10,5 @@ describe('crateCustomEmail()', () => {
       `${firstName.toLowerCase()}.${surname.toLowerCase()}@example.com`
     );
   });
+  test;
 });
