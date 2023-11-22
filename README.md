@@ -2,7 +2,8 @@
 
 ## Overview
 
-`responserun-mock` is a simple TypeScript library that allows developers to generate Turkish names. It provides functions for creating random Turkish male and female first names.
+`responserun-mock` is a simple TypeScript library that allows developers to generate names. surname , etc. It provides functions for creating random mock data 
+
 
 ## Installation
 ```
